@@ -262,8 +262,4 @@ frontend/
   the brief, I prioritized making each of the four scenarios individually
   legible and verifiable over building meta-evaluation tooling.
 
-## A note on AI-assisted development
 
-This solution was built with the help of Claude (Anthropic). I'm able to walk
-through and modify any part of it — architecture, tool schemas, validation
-logic, or the UI — in a follow-up discussion.
