@@ -243,7 +243,7 @@ frontend/
     App.tsx        tab shell
 ```
 
-## Limitations & what I'd do next
+##  What I'd do next
 
 - The mock dataset is intentionally small (5 products, 2 nodes, 5 suppliers) so
   the numbers behind each scenario stay easy to verify by hand — a real deployment
