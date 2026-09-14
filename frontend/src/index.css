@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+:root {
+  --ink: #1b1d1f;
+  --ink-soft: #52585f;
+  --paper: #f6f6f3;
+  --panel: #ffffff;
+  --line: #dcdcd4;
+  --line-strong: #b8b8ae;
+  --ledger-blue: #2a4b7c;
+  --ledger-blue-soft: #e7edf5;
+  --ok: #2f7a4f;
+  --ok-soft: #e6f2ea;
+  --warn: #a5690f;
+  --warn-soft: #fbf0dd;
+  --danger: #b83b3b;
+  --danger-soft: #faeaea;
+  --neutral-chip: #4a5568;
+  --neutral-chip-soft: #eceef1;
+
+  --font-ui: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: var(--ledger-blue);
+}
+
+::selection {
+  background: var(--ledger-blue-soft);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ledger-blue);
+  outline-offset: 2px;
+}
+
+code,
+.mono {
+  font-family: var(--font-mono);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
